@@ -7,6 +7,16 @@
 --footer-color: #E7E9FC;
 --fon-cloud-color:#F4F4FD;
 }
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+.img {
+    display: block;
+}
 body {
  font-family: "Roboto" , sans-serif; 
  color: var(--second-slate-color);
@@ -18,10 +28,16 @@ body {
 .list {
  list-style: none;
 }
+.container{
+    width: 1158px;
+    padding-left: 15px;
+ padding-right: 15px;
+ margin: 0 auto;
+}
 .header {
+    padding-top: 32px;
 }
-.header-nav {
-}
+.header-nav {}
 .header-logo {
  font-family: "Raleway", sans-serif;
  font-style: normal;
@@ -41,6 +57,7 @@ body {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #2E2F42;
+ display: flex;
 }
 .list {
 }
@@ -102,6 +119,8 @@ body {
  /*section 1*/
  .hero {
  background-color: var(--second-title-color);
+ padding-top: 120px;
+ padding-bottom: 120px;
 }
  .hero-list {
  font-weight: 700;
@@ -109,7 +128,8 @@ body {
  line-height: 1.07;
  text-align: center;
  letter-spacing: 0.02em;
- color: var(--main-white-color)
+ color: var(--main-white-color);
+ margin-bottom: 20px;
 }
 .hero-list 
  backgroud-color :hover,
@@ -127,6 +147,7 @@ body {
  color: #FFFFFF;
  cursor: pointer;
  background: #4D5AE5;
+ margin-bottom: 20px;
 }
 .hero-btn:hover,
 .hero-btn:focus { 
@@ -134,6 +155,8 @@ body {
 }
  /*section 2*/
  .abaut {
+    padding-top: 120px;
+ padding-bottom: 120px;
 }
 .abaut-list {
  font-weight: 500;
@@ -149,6 +172,10 @@ body {
  color: var(--second-slate-color)
 }
  /*section 3*/
+ .photo-comp{
+    padding-top: 120px;
+ padding-bottom: 120px;
+ }
 .photo-comp-title {
  font-weight: 700;
  font-size: 36px;
@@ -160,7 +187,9 @@ body {
 }
  /*section 4*/
  .section-photo-person{
-  background-color:var(--fon-cloud-color)
+  background-color:var(--fon-cloud-color);
+  padding-top: 120px;
+ padding-bottom: 120px;
 }
 .person-title {
  font-weight: 700;
@@ -197,7 +226,9 @@ body {
 }
  /*footer*/
  .footer-bottom-link {
-  background-color: var(--second-title-color)
+  background-color: var(--second-title-color);
+  padding-top: 120px;
+ padding-bottom: 120px;
 }
 .footer-bottom-web {
  font-family: "Raleway", sans-serif;
