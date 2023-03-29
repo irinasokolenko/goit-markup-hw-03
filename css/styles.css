@@ -168,7 +168,7 @@ body {
  text-align:center;
  justify-content: center;
  border-radius: 4px;
-margin:0 auto;
+ margin:0 auto;
 
  font-family: inherit;
  font-weight: 500;
@@ -187,26 +187,39 @@ margin:0 auto;
 }
  /*section 2*/
  .abaut {
-    padding-top: 120px;
+ padding-top: 120px;
  padding-bottom: 120px;
-}
+ display: flex;
+ align-items: center;
+  Width: 1128px
+  Height: 104px
+ }
 .abaut-list {
  font-weight: 500;
  font-size: 20px;
  line-height: 1.2;
  letter-spacing: 0.02em;
  color: var(--second-title-color);
+ display: flex;
+ margin-right: 24px;
 }
 .abaut-text {
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
- color: var(--second-slate-color)
+ color: var(--second-slate-color);
+ gap: 24px;
+ margin-bottom: 8px;
+ max-width: 264px;
 }
  /*section 3*/
  .photo-comp{
-    padding-top: 120px;
+ padding-top: 120px;
  padding-bottom: 120px;
+ }
+ .photo-comp-list{
+    display: flex;
+    gap: 24px;
  }
 .photo-comp-title {
  font-weight: 700;
@@ -217,12 +230,18 @@ margin:0 auto;
  text-transform: capitalize;
  color:var(--second-title-color)
 }
+.photo-comp-title{
+ margin-bottom: 48px;
+ margin-left: auto;
+ margin-right: auto;
+}
  /*section 4*/
  .section-photo-person{
   background-color:var(--fon-cloud-color);
   padding-top: 120px;
- padding-bottom: 120px;
-}
+  padding-bottom: 120px;
+  margin-bottom: 72px;
+ }
 .person-title {
  font-weight: 700;
  font-size: 36px;
@@ -231,15 +250,19 @@ margin:0 auto;
  letter-spacing: 0.02em;
  text-transform: capitalize;
  color: var(--second-title-color)
-}
+ margin-left: auto;
+ margin-right: auto;
+ }
 .person-list {
-    background-color:var(--fon-cloud-color)
+    background-color:var(--fon-cloud-color);
+    display: flex;
+    gap: 24px;
 }
 .list {
  list-style:none;
 }
 .person-item {
- background-color: var(--main-white-color)
+ background-color: var(--main-white-color);
 }
 .photo-person-name {
  font-weight: 500;
@@ -254,7 +277,8 @@ margin:0 auto;
  line-height: 1.50;
  text-align: center;
  letter-spacing: 0.02em;
- color: var(--second-slate-color)
+ color: var(--second-slate-color);
+ margin-bottom: 8px;
 }
  /*footer*/
  .footer-bottom-link {
@@ -274,6 +298,7 @@ margin:0 auto;
  text-transform: uppercase;
  color: #4D5AE5;
  text-decoration: none;
+ margin-bottom: 17.5px;
 }
 .footer-studio {
 color:var(--fon-cloud-color)
@@ -282,7 +307,8 @@ color:var(--fon-cloud-color)
  font-size: 16px;
  line-height: 24px;
  letter-spacing: 0.02em;
- color: var(--fon-cloud-color)
+ color: var(--fon-cloud-color);
+ max-width: 264px;
  }
  /**button portfolio**/
  .batton-roll{
