@@ -37,7 +37,14 @@ body {
 .header {
     padding-top: 32px;
 }
-.header-nav {}
+.header-container{
+    display: flex;
+}
+.header-nav-link {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 .header-logo {
  font-family: "Raleway", sans-serif;
  font-style: normal;
@@ -47,6 +54,7 @@ body {
  letter-spacing: 0.03em;
  text-transform: uppercase;
  color: var(--main-title-color);
+ margin-right: 76px;
 }
 .logo-web{
     color:var(--second-title-color);
@@ -67,6 +75,7 @@ body {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #2E2F42;
+ margin-right: 40px;
 }
 .header-iten :hover {
     color: #404bbf;
@@ -97,12 +106,15 @@ body {
 .header-address :focus {
     color: #404BBF;
 }
+.header-address-list{
+    display: flex;
+}
 .header-address-link {
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #434455;
-}
+  }
 .header-adder-iten {
     font-size: 16px;
     line-height: 1.5;
@@ -115,7 +127,9 @@ body {
 .header-adder-iten :focus {
     color: #404BBF;
  }
-
+.address-tel{
+    margin-left: 40px;
+}
  /*section 1*/
  .hero {
  background-color: var(--second-title-color);
