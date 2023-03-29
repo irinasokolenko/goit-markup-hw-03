@@ -220,6 +220,7 @@ body {
  .photo-comp-list{
     display: flex;
     gap: 24px;
+    width: calc(100% - 60px) / 3;
  }
 .photo-comp-title {
  font-weight: 700;
@@ -249,9 +250,8 @@ body {
  text-align: center;
  letter-spacing: 0.02em;
  text-transform: capitalize;
- color: var(--second-title-color)
- margin-left: auto;
- margin-right: auto;
+ color: var(--second-title-color);
+ margin-bottom: 72px;
  }
 .person-list {
     background-color:var(--fon-cloud-color);
@@ -263,6 +263,7 @@ body {
 }
 .person-item {
  background-color: var(--main-white-color);
+ width: calc(100% - 90px) / 4;
 }
 .photo-person-name {
  font-weight: 500;
@@ -310,7 +311,7 @@ color:var(--fon-cloud-color)
  color: var(--fon-cloud-color);
  max-width: 264px;
  }
- /**button portfolio**/
+     /**button portfolio**/
  .batton-roll{
  font-family: 'Roboto', sans-serif;
  font-style:normal;
@@ -323,8 +324,26 @@ color:var(--fon-cloud-color)
   cursor:pointer;
   color: #4d5ae5;
 }
+.button-container{
+    padding-top: 168px;
+    padding-bottom: 72px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    gap: 48px;
+    margin-left: 427px;
+}
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px 24px;
+    margin-bottom: 32px;
+}
+.list-container{
+    width: calc(100% - 60px) / 3;
+}
  .batton-roll{
-    background-color: var(--fon-cloud-color)
+    background-color: var(--fon-cloud-color);
 }
  .batton-roll:hover, 
  .batton-roll:focus {
@@ -344,7 +363,13 @@ background-color: #404BBF ;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--second-title-color); 
+    color: var(--second-title-color);
+    gap: 8px;
+}
+.person-item-text{
+    gap: 24px 30px;
+    margin-top: 32px;
+    margin-left: 172px;
 }
 
 
