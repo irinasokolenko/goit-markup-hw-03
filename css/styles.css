@@ -336,11 +336,12 @@ color:var(--fon-cloud-color)
 .list-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 120px 24px;
+    gap: 48px 24px;
     margin-bottom: 32px;
+    margin-top: 72px;
 }
 .list-container{
-    width: calc(100% - 60px) / 3;
+    width: calc(100% - 48px) / 3;
 }
  .batton-roll{
     background-color: var(--fon-cloud-color);
@@ -364,14 +365,17 @@ background-color: #404BBF ;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+    max-width: 290px;
     gap: 8px;
 }
-.person-item-text{
-    gap: 24px 30px;
-    margin-top: 32px;
+.container-text{
     margin-left: 172px;
+    width: 30px;
+    height: 24px;
+    gap: 80px 338px;
+    margin: 0;
+    max-width: 279px;
 }
-
 
 
 
