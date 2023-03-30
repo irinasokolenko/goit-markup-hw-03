@@ -320,14 +320,22 @@ color:var(--fon-cloud-color)
   color: #4d5ae5;
 }
 .button-container{
-    padding-top: 168px;
+    padding-top: 132px;
     padding-bottom: 72px;
     display: flex;
     align-items: center;
     text-align:center;
     gap: 48px;
-    margin-left: 427px;
-}
+    justify-content: center;
+    background-color: transparent;
+    }
+    /* display: block;
+ text-align:center;
+ justify-content: center;
+ border-radius: 4px;
+ margin:0 auto;
+ background-color: transparent;
+ display:inline-block;*/
 .list-container{
     display: flex;
     gap: 48px 24px;
@@ -376,7 +384,13 @@ background-color: #404BBF ;
 }
 .emploes-card{
     align-items: center;
-    padding: 32px 8px 16px 54px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16 px;
+    padding-right: 16px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
 }
 
 
