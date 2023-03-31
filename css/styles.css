@@ -280,7 +280,6 @@ padding-bottom: 8px;
  /*footer*/
  .footer-bottom-link {
   background-color: var(--second-title-color);
-  padding-top: 120px;
  padding-bottom: 120px;
 }
 .footer-bottom-web {
@@ -327,15 +326,9 @@ color:var(--fon-cloud-color)
     text-align:center;
     gap: 48px;
     justify-content: center;
-    background-color: transparent;
+    margin:0 auto;
+    border-color:transparent;
     }
-    /* display: block;
- text-align:center;
- justify-content: center;
- border-radius: 4px;
- margin:0 auto;
- background-color: transparent;
- display:inline-block;*/
 .list-container{
     display: flex;
     gap: 48px 24px;
