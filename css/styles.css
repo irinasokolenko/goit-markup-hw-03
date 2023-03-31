@@ -323,6 +323,10 @@ color:var(--fon-cloud-color)
   border-color:transparent;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .button-container{
     padding-top: 132px;
