@@ -16,7 +16,8 @@ ul{
 }
 .img {
     display: block;
-    max-width:auto 100%;
+    max-width: 100%;
+    height: auto;
 }
 body {
  font-family: "Roboto" , sans-serif; 
@@ -195,7 +196,8 @@ body {
  letter-spacing: 0.02em;
  color: var(--second-title-color);
  margin-bottom: 8px;
-}
+ }
+ pattern wizua
 .abaut-calk{
     width: calc((100% - 72px) / 4);
 }
