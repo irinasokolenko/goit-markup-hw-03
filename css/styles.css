@@ -309,6 +309,10 @@ color:var(--fon-cloud-color)
     max-width: 264px;
  }
      /**button portfolio**/
+ .batton-portfolio{
+ padding: top 48px;
+ padding-bottom: 48px;
+ }
  .batton-roll{
  font-family: 'Roboto', sans-serif;
  font-style:normal;
@@ -378,9 +382,9 @@ background-color: #404BBF ;
 }
 .container-text{
     padding-right: 314px;
+    margin-bottom: 8px;
 }
 .emploes-card{
-    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
