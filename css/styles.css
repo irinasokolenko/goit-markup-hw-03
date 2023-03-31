@@ -299,11 +299,11 @@ padding-bottom: 8px;
 color:var(--fon-cloud-color)
  }
 .footer-bottom-text {
- font-size: 16px;
- line-height: 24px;
- letter-spacing: 0.02em;
- color: var(--fon-cloud-color);
- max-width: 264px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--fon-cloud-color);
+    max-width: 264px;
  }
      /**button portfolio**/
  .batton-roll{
@@ -317,6 +317,12 @@ color:var(--fon-cloud-color)
  letter-spacing: 0.04em;
   cursor:pointer;
   color: #4d5ae5;
+  flex-direction: row;
+  justify-content: center;
+  margin:0 auto;
+  border-color:transparent;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
 }
 .button-container{
     padding-top: 132px;
@@ -326,8 +332,6 @@ color:var(--fon-cloud-color)
     text-align:center;
     gap: 48px;
     justify-content: center;
-    margin:0 auto;
-    border-color:transparent;
     }
 .list-container{
     display: flex;
