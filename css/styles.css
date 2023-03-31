@@ -39,7 +39,7 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid;
+    border-bottom: 1px #E7E9FC;
  }
 .header-container{
     display: flex;
@@ -215,9 +215,12 @@ body {
  .photo-comp-list{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 3);
  }
-.photo-comp-title {
+ .li-comp{
+ width: calc((100% - 72px) / 3);
+}
+ 
+ .photo-comp-title {
  font-weight: 700;
  font-size: 36px;
  line-height: 1.11;
@@ -272,13 +275,17 @@ body {
 }
 .description{
 padding-top: 32px;
-padding-bottom: 8px;
+padding-bottom: 32px;
+margin-bottom: 8px;
 }
  /*footer*/
  .footer-bottom-link {
-  background-color: var(--second-title-color);
- padding-bottom: 120px;
-}
+ background-color: var(--second-title-color);
+ }
+ .footer-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
 .footer-bottom-web {
  font-family: "Raleway", sans-serif;
  font-style: normal;
@@ -290,8 +297,7 @@ padding-bottom: 8px;
  text-transform: uppercase;
  color: #4D5AE5;
  text-decoration: none;
- margin-top: 100px;
-}
+ }
  .footer-studio {
 color:var(--fon-cloud-color)
  }
@@ -331,15 +337,13 @@ color:var(--fon-cloud-color)
     display: flex;
     align-items: center;
     text-align:center;
-    gap: 48px;
+    gap: 24px;
     justify-content: center;
     }
 .list-container{
     display: flex;
     gap: 48px 24px;
-    margin-bottom: 32px;
-    margin-top: 72px;
-}
+ }
 .list-container{
     width: calc((100% - 48px) / 3); 
 }
@@ -373,18 +377,13 @@ background-color: #404BBF ;
     color: var(--second-title-color);
 }
 .container-text{
-    margin-left: 172px;
-    width: 30px;
-    height: 24px;
-    gap: 80px 338px;
-    margin: 0;
-    max-width: 279px;
+    padding-right: 314px;
 }
 .emploes-card{
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 16 px;
+    padding-left: 16px;
     padding-right: 16px;
     border-left: 1px;
     border-right: 1px;
