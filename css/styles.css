@@ -14,7 +14,7 @@ ul{
     margin: 0;
     padding-left: 0;
 }
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -185,6 +185,9 @@ body {
  padding-top: 120px;
  align-items: center;
  }
+ .abaut-calk{
+    width: calc((100% - 72px) / 4);   
+ }
 .abaut-list {
  display: flex;
  gap: 24px;
@@ -217,7 +220,7 @@ body {
     gap: 24px;
  }
  .li-comp{
- width: calc((100% - 72px) / 3);
+ width: calc((100% - 48px) / 3);
 }
  
  .photo-comp-title {
@@ -257,6 +260,7 @@ body {
 .person-item {
  background-color: var(--main-white-color);
  width: calc((100% - 72px) / 4);
+ border-radius: 0px 0px 4px 4px;
 }
 .photo-person-name {
  font-weight: 500;
@@ -276,15 +280,12 @@ body {
 .description{
 padding-top: 32px;
 padding-bottom: 32px;
-margin-bottom: 8px;
 }
  /*footer*/
  .footer-bottom-link {
  background-color: var(--second-title-color);
- }
- .footer-container{
-    padding-top: 100px;
-    padding-bottom: 100px;
+ padding-top: 100px;
+ padding-bottom: 100px;
  }
 .footer-bottom-web {
  font-family: "Raleway", sans-serif;
