@@ -268,7 +268,8 @@ body {
  line-height: 1.20;
  text-align: center;
  letter-spacing: 0.02em;
- color:var(--second-title-color)
+ color:var(--second-title-color);
+ margin-bottom: 8px;
 }
 .person-item-text {
  font-size: 16px;
@@ -329,7 +330,6 @@ color:var(--fon-cloud-color)
   flex-direction: row;
   justify-content: center;
   margin:0 auto;
-  border-color:transparent;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
   padding-top: 12px;
@@ -361,7 +361,8 @@ color:var(--fon-cloud-color)
 }
 .batton-roll:hover,
 .batton-roll:focus { 
-background-color: #404BBF ;
+ background-color: #404BBF;
+ border-color:transparent;
  } 
 .person-item-list {
     list-style:none;
