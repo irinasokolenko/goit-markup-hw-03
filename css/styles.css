@@ -391,8 +391,12 @@ color:var(--fon-cloud-color)
     padding-bottom: 32px;
     padding-left: 16px;
     border-left: 1px;
+    border-left-width: 1px;
+    border-left-style: initial;
+    border-left-color: initial;
     border-right: 1px;
     border-bottom: 1px;
+
 }
 
 
